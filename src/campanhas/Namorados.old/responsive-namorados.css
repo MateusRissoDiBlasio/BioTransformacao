@@ -1,0 +1,988 @@
+@media (max-width: 320px){
+
+    .header{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .msg {
+        display: flex;
+        justify-self: center;
+        align-self: center;
+        color: red;
+        margin: 4px;
+        font-family: "Parisienne", cursive;
+        font-weight: 500;
+        text-shadow: none;
+        font-size: 30px;
+    }
+
+    h1{
+        margin: 6px;
+        color: goldenrod;
+        font-size: 26px;
+    }
+        
+    .logo{
+        width: 100px;
+        height: 100px;
+        margin-bottom: 0px;
+    }
+
+    .links{
+        justify-content: right;
+        padding: 0px 0px 0px 110px;
+    }
+    
+    .whatsapp{
+        width: 20px;
+    }
+
+    .button-57 span:last-child {
+        top: 60%;
+    }
+
+    .bag{
+        width: 35px;
+    }
+
+    .links:first-child{
+    margin-top: 80px;
+    }
+
+    .links .button-57 {
+        margin: 3px;
+        font-size: 12px;
+        color: aliceblue;
+    }
+
+    .links:last-child{
+        padding: 50px;
+        padding-bottom: 0px;
+        justify-content: center;
+        margin-top: 60px;
+    }
+
+    /* promo */
+
+    .button-89{
+        font-size: 24px;
+    }
+
+    .button-89 .promo::after{
+        content:"PROMOS";
+        position: absolute;
+        font-family: 'Reglisse-fill';
+        color: red;
+        font-size: 24px;
+        margin-left: 60px;
+        text-shadow: 2px 2px 2px black;
+    }
+
+    .button-89 .novidades::after{
+        content:"NOVIDADES";
+        position: absolute;
+        font-family: 'Reglisse-fill';
+        color: red;
+        font-size: 24px;
+        text-shadow: 2px 2px 2px black;
+    }
+    
+}
+
+@media (min-width: 321px) and (max-width: 359px){ 
+
+    .header{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .msg {
+        display: flex;
+        justify-self: center;
+        align-self: center;
+        color: red;
+        margin: 4px;
+        font-family: "Parisienne", cursive;
+        font-weight: 500;
+        text-shadow: none;
+        font-size: 30px;
+    }
+
+    h1{
+        margin: 6px;
+        color: goldenrod;
+        font-size: 26px;
+    }
+
+    .logo{
+        width: 100px;
+        height: 100px;
+        margin-bottom: 0px;
+    }
+
+    .links{
+        justify-content: right;
+        padding: 0px 0px 0px 110px;
+    }
+
+    .whatsapp{
+        width: 20px;
+    }
+
+    .links:first-child{
+    margin-top: 80px;
+    }
+
+    .links .button-57 {
+        margin: 3px;
+        font-size: 12px;
+        color: aliceblue;
+    }
+
+    .button-57 span:last-child {
+        top: 60%;
+    }
+
+    .bag{
+        width: 35px;
+    }
+
+    .links:last-child{
+        padding: 50px;
+        padding-bottom: 0px;
+        justify-content: center;
+        margin-top: 60px;
+    }
+
+    /* promo */
+
+    
+    .button-89{
+        font-size: 24px;
+    }
+
+    .button-89 .promo::after{
+        content:"PROMOS";
+        position: absolute;
+        font-family: 'Reglisse-fill';
+        color: red;
+        font-size: 24px;
+        margin-left: 60px;
+        text-shadow: 2px 2px 2px black;
+    }
+
+    .button-89 .novidades::after{
+        content:"NOVIDADES";
+        position: absolute;
+        font-family: 'Reglisse-fill';
+        color: red;
+        font-size: 24px;
+        text-shadow: 2px 2px 2px black;
+    }
+    
+}
+
+/* display instagram Gessyka*/
+
+@media (min-width: 360px) and (max-width: 375px){ 
+
+    .header{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .msg {
+        display: flex;
+        justify-self: center;
+        align-self: center;
+        color: red;
+        margin: 4px;
+        font-family: "Parisienne", cursive;
+        font-weight: 500;
+        text-shadow: none;
+        font-size: 30px;
+    }
+
+    h1{
+        margin: 6px;
+        color: goldenrod;
+        font-size: 26px;
+    }
+
+    .logo{
+        width: 100px;
+        height: 100px;
+        margin-bottom: 0px;
+    }
+
+    .links{
+        justify-content: right;
+        padding: 0px 0px 0px 150px;
+    }
+
+    .whatsapp{
+        width: 20px;
+    }
+
+    .links:first-child{
+    margin-top: 80px;
+    }
+
+    .links .button-57 {
+        margin: 3px;
+        font-size: 11px;
+        color: aliceblue;
+    }
+
+    .button-57 span:last-child {
+        top: 60%;
+    }
+
+    .links:last-child{
+        padding: 60px;
+        padding-top: 40px;
+        padding-bottom: 0px;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .bag{
+        width: 35px;
+    }
+
+    /* promo */
+
+    .button-89{
+        font-size: 26px;
+    }
+
+    .button-89 .promo::after{
+        content:"PROMOS";
+        position: absolute;
+        font-family: 'Reglisse-fill';
+        color: red;
+        font-size: 26px;
+        margin-left: 60px;
+        text-shadow: 2px 2px 2px black;
+    }
+
+    .button-89 .novidades::after{
+        content:"NOVIDADES";
+        position: absolute;
+        font-family: 'Reglisse-fill';
+        color: red;
+        font-size: 26px;
+        text-shadow: 2px 2px 2px black;
+    }
+
+}
+
+/* display isntagram Penha*/
+
+@media (min-width: 376px) and (max-width: 425px){
+
+    .namorados{
+        height: 115vh;
+    }
+
+    .header{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .msg {
+        display: flex;
+        justify-self: center;
+        align-self: center;
+        color: red;
+        margin: 4px;
+        font-family: "Parisienne", cursive;
+        font-weight: 500;
+        text-shadow: none;
+        font-size: 30px;
+    }
+
+    h1{
+        color: goldenrod;
+        font-size: 28px;
+    }
+
+    .logo{
+        width: 130px;
+        height: 130px;
+        margin-bottom: 0px;
+    }
+
+    .links{
+        justify-content: right;
+        padding: 0px 0px 0px 120px;
+        margin-bottom: 5px;
+    }
+
+    .button-57 span:last-child {
+        top: 60%;
+    }
+    .bag{
+        width: 35px;
+    }
+
+    .whatsapp{
+        width: 20px;
+    }
+
+    .links:first-child{
+        margin-top: 110px;
+    }
+
+    .links .button-57 {
+        margin: 3px;
+        font-size: 14px;
+        color: aliceblue;
+    }
+
+    .links:last-child{
+        padding: 80px;
+        padding-top: 50px;
+        padding-bottom: 0px;
+        justify-content: center;
+        margin-top: 50px;
+    }
+
+    /* promo */
+
+    .button-89{
+        font-size: 26px;
+    }
+
+    .button-89 .promo::after{
+        content:"PROMOS";
+        position: absolute;
+        font-family: 'Reglisse-fill';
+        color: red;
+        font-size: 26px;
+        margin-left: 60px;
+        text-shadow: 2px 2px 2px black;
+    }
+
+    .button-89 .novidades::after{
+        content:"NOVIDADES";
+        position: absolute;
+        font-family: 'Reglisse-fill';
+        color: red;
+        font-size: 26px;
+        text-shadow: 2px 2px 2px black;
+    }
+
+} 
+
+@media (min-width: 426px) and (max-width: 500px){
+
+.namorados{
+    height: 110vh;
+    background-position-x: -135px;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.msg {
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    color: red;
+    margin: 4px;
+    font-family: "Parisienne", cursive;
+    font-weight: bold;
+    font-size: 40px;
+    text-shadow: 1px 1px 1px black;
+}
+
+h1{
+    color: goldenrod;
+    font-size: 40px;
+}
+
+.logo{
+    width: 135px;
+    height: 135px;
+    margin-bottom: 0px;
+    margin-right: 20px;
+}
+
+.links{
+    justify-content: right;
+    padding: 0px 0px 0px 180px;
+    margin-bottom: 5px;
+}
+
+.button-57 span:last-child {
+    top: 60%;
+}
+.bag{
+    width: 35px;
+}
+
+.whatsapp{
+    width: 25px;
+}
+
+.links:first-child{
+    margin-top: 150px;
+}
+
+.links .button-57 {
+    margin: 3px;
+    font-size: 16px;
+    color: aliceblue;
+}
+
+.links:last-child{
+    padding: 120px;
+    padding-top: 50px;
+    padding-bottom: 0px;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+/* promo */
+
+.button-89{
+    font-size: 26px;
+}
+
+.button-89 .promo::after{
+    content:"PROMOS";
+    position: absolute;
+    font-family: 'Reglisse-fill';
+    color: red;
+    font-size: 26px;
+    margin-left: 60px;
+    text-shadow: 2px 2px 2px black;
+}
+
+.button-89 .novidades::after{
+    content:"NOVIDADES";
+    position: absolute;
+    font-family: 'Reglisse-fill';
+    color: red;
+    font-size: 26px;
+    text-shadow: 2px 2px 2px black;
+}
+}
+
+@media (min-width: 501px) and (max-width: 550px){
+
+    .namorados{
+        height: 110vh;
+        background-position-x: -105px;
+    }
+    
+    .header{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .msg {
+        display: flex;
+        justify-self: center;
+        align-self: center;
+        color: red;
+        margin: 4px;
+        font-family: "Parisienne", cursive;
+        font-weight: bold;
+        font-size: 40px;
+        text-shadow: 1px 1px 1px black;
+    }
+    
+    h1{
+        color: goldenrod;
+        font-size: 40px;
+    }
+    
+    .logo{
+        width: 135px;
+        height: 135px;
+        margin-bottom: 0px;
+        margin-right: 20px;
+    }
+    
+    .links{
+        justify-content: right;
+        padding: 0px 0px 0px 180px;
+        margin-bottom: 5px;
+    }
+    
+    .button-57 span:last-child {
+        top: 60%;
+    }
+    .bag{
+        width: 35px;
+    }
+    
+    .whatsapp{
+        width: 25px;
+    }
+    
+    .links:first-child{
+        margin-top: 150px;
+    }
+    
+    .links .button-57 {
+        margin: 3px;
+        font-size: 16px;
+        color: aliceblue;
+    }
+    
+    .links:last-child{
+        padding: 150px;
+        padding-top: 50px;
+        padding-bottom: 0px;
+        justify-content: center;
+        margin-top: 70px;
+    }
+    
+    /* promo */
+    
+    .button-89{
+        font-size: 26px;
+    }
+    
+    .button-89 .promo::after{
+        content:"PROMOS";
+        position: absolute;
+        font-family: 'Reglisse-fill';
+        color: red;
+        font-size: 26px;
+        margin-left: 60px;
+        text-shadow: 2px 2px 2px black;
+    }
+    
+    .button-89 .novidades::after{
+        content:"NOVIDADES";
+        position: absolute;
+        font-family: 'Reglisse-fill';
+        color: red;
+        font-size: 26px;
+        text-shadow: 2px 2px 2px black;
+    }
+}
+
+@media (min-width: 551px) and (max-width: 599px){
+
+    .namorados{
+        height: 110vh;
+        background-position-x: -95px;
+    }
+    
+    .header{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .msg {
+        display: flex;
+        justify-self: center;
+        align-self: center;
+        color: red;
+        margin: 4px;
+        font-family: "Parisienne", cursive;
+        font-weight: bold;
+        font-size: 40px;
+        text-shadow: 1px 1px 1px black;
+    }
+    
+    h1{
+        color: goldenrod;
+        font-size: 40px;
+    }
+    
+    .logo{
+        width: 135px;
+        height: 135px;
+        margin-bottom: 0px;
+        margin-right: 20px;
+    }
+    
+    .links{
+        justify-content: right;
+        padding: 0px 0px 0px 180px;
+        margin-bottom: 5px;
+    }
+    
+    .button-57 span:last-child {
+        top: 60%;
+    }
+    .bag{
+        width: 35px;
+    }
+    
+    .whatsapp{
+        width: 25px;
+    }
+    
+    .links:first-child{
+        margin-top: 150px;
+    }
+    
+    .links .button-57 {
+        margin: 3px;
+        font-size: 16px;
+        color: aliceblue;
+    }
+    
+    .links:last-child{
+        padding: 170px;
+        padding-top: 50px;
+        padding-bottom: 0px;
+        justify-content: center;
+        margin-top: 70px;
+    }
+    
+    /* promo */
+    
+    .button-89{
+        font-size: 26px;
+    }
+    
+    .button-89 .promo::after{
+        content:"PROMOS";
+        position: absolute;
+        font-family: 'Reglisse-fill';
+        color: red;
+        font-size: 26px;
+        margin-left: 60px;
+        text-shadow: 2px 2px 2px black;
+    }
+    
+    .button-89 .novidades::after{
+        content:"NOVIDADES";
+        position: absolute;
+        font-family: 'Reglisse-fill';
+        color: red;
+        font-size: 26px;
+        text-shadow: 2px 2px 2px black;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 768px){
+
+    .namorados{
+        height: 110vh;
+    }
+
+    .header{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .msg {
+        display: flex;
+        justify-self: center;
+        align-self: center;
+        color: red;
+        margin: 4px;
+        font-family: "Parisienne", cursive;
+        font-weight: bold;
+        font-size: 60px;
+        text-shadow: 1px 1px 1px black;
+    }
+
+    h1{
+        color: goldenrod;
+        font-size: 50px;
+    }
+
+    .logo{
+        width: 135px;
+        height: 135px;
+        margin-bottom: 0px;
+        margin-right: 50px;
+    }
+
+    .links{
+        justify-content: right;
+        padding: 0px 0px 0px 180px;
+        margin-bottom: 5px;
+    }
+
+    .button-57 span:last-child {
+        top: 60%;
+    }
+    .bag{
+        width: 35px;
+    }
+    
+    .whatsapp{
+        width: 25px;
+    }
+
+    .links:first-child{
+        margin-top: 90px;
+    }
+
+    .links .button-57 {
+        margin: 3px;
+        font-size: 16px;
+        color: aliceblue;
+    }
+
+    .links:last-child{
+        padding: 240px;
+        padding-top: 50px;
+        padding-bottom: 0px;
+        justify-content: center;
+        margin-top: 60px;
+    }
+
+    /* promo */
+
+    .button-89{
+        font-size: 38px;
+    }
+
+    .button-89 .promo::after{
+        content:"PROMOS";
+        position: absolute;
+        font-family: 'Reglisse-fill';
+        color: red;
+        font-size: 38px;
+        margin-left: 60px;
+        text-shadow: 2px 2px 2px black;
+    }
+
+    .button-89 .novidades::after{
+        content:"NOVIDADES";
+        position: absolute;
+        font-family: 'Reglisse-fill';
+        color: red;
+        font-size: 38px;
+        text-shadow: 2px 2px 2px black;
+    }
+    
+}
+
+@media (min-width: 769px) and (max-width: 1024px){
+
+    .namorados{
+        background-image: url(./images/casal-fundo-640-2.png);
+        max-width: 1024px;
+        height: 140vh;
+        background-repeat: no-repeat;
+        align-items: right;
+        justify-self: right;
+        justify-items: right;
+        background-position: bottom;
+    }
+
+    .header{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .msg {
+        display: flex;
+        justify-self: center;
+        align-self: center;
+        color: red;
+        margin-left: 50px;
+        font-family: "Parisienne", cursive;
+        font-weight: 600;
+        text-shadow: none;
+        font-size: 50px;
+    }
+
+    h1{
+        color: goldenrod;
+        font-size: 50px;
+    }
+
+    .logo{
+        width: 180px;
+        height: 180px;
+        margin-bottom: 0px;
+    }
+
+    .links{
+        justify-content: right;
+        padding: 0px 0px 0px 420px;
+        margin-bottom: 5px;
+    }
+
+    .button-57 span:last-child {
+        top: 60%;
+    }
+
+    .bag{
+        width: 35px;
+    }
+
+    .whatsapp{
+        width: 25px;
+    }
+
+    .links:first-child{
+    margin-top: 100px;
+    }
+
+    .links .button-57 {
+        margin: 10px;
+        font-size: 20px;
+        color: aliceblue;
+        padding: 25px;
+        line-height: 25px;
+    }
+
+    .links:last-child{
+        padding-right: 10px;
+        padding-left: 420px;
+        padding-top: 10px;
+        padding-bottom: 0px;
+        margin-top: 0px;
+    }
+
+    /* promo */
+
+    .button-89{
+        font-size: 36px;
+    }
+
+    .button-89 .promo::after{
+        content:"PROMOS";
+        position: absolute;
+        font-family: 'Reglisse-fill';
+        color: red;
+        font-size: 36px;
+        margin-left: 60px;
+        text-shadow: 2px 2px 2px black;
+    }
+
+    .button-89 .novidades::after{
+        content:"NOVIDADES";
+        position: absolute;
+        font-family: 'Reglisse-fill';
+        color: red;
+        font-size: 36px;
+        text-shadow: 2px 2px 2px black;
+    }
+
+}
+
+@media (min-width: 1025px) {
+
+    .namorados{
+        background-image: url(./images/casal-fundo-640-2.png);
+        background-size: 640px;
+        max-width: 640px;
+        height: 760px;
+    }
+
+    .header{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .msg {
+        display: flex;
+        justify-self: center;
+        align-self: center;
+        color: red;
+        margin-left: 50px;
+        font-family: "Parisienne", cursive;
+        font-weight: 600;
+        text-shadow: none;
+        font-size: 50px;
+    }
+
+    h1{
+        color: goldenrod;
+        font-size: 50px;
+    }
+
+    .logo{
+        width: 180px;
+        height: 180px;
+        margin-bottom: 0px;
+    }
+
+    .links{
+        justify-content: right;
+        padding: 0px 0px 0px 220px;
+        margin-bottom: 5px;
+        margin-right: 10px;
+    }
+
+    .whatsapp{
+        width: 25px;
+    }
+
+    .links:first-child{
+    margin-top: 30px;
+    }
+
+    .links .button-57 {
+        margin: 5px;
+        font-size: 16px;
+        color: aliceblue;
+        padding: 15px;
+        line-height: 25px;
+        
+    }
+
+    .links:last-child{
+        padding-right: 10px;
+        padding-left: 300px;
+        padding-top: 10px;
+        padding-bottom: 0px;
+        margin-top: 30px;
+        margin-right: 0px;
+    }
+
+    /* promo */
+
+    .button-89{
+        font-size: 35px;
+    }
+
+    .button-89 .promo::after{
+        content:"PROMOS";
+        position: absolute;
+        font-family: 'Reglisse-fill';
+        color: red;
+        font-size: 35px;
+        margin-left: 60px;
+        text-shadow: 2px 2px 2px black;
+    }
+
+    .button-89 .novidades::after{
+        content:"NOVIDADES";
+        position: absolute;
+        font-family: 'Reglisse-fill';
+        color: red;
+        font-size: 35px;
+        text-shadow: 2px 2px 2px black;        
+    }
+
+}

@@ -1,0 +1,226 @@
+.namorados{
+    background-image: url(./images/casal-fundo-640-2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: right;
+    justify-self: right;
+    justify-items: right;
+    background-position: bottom;
+    
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    height: 680px;
+    width: 100vw;
+
+}
+
+h1{
+    font-family: "Bebas Neue", sans-serif;
+    color: goldenrod;
+    text-shadow: 2px 2px black;
+    align-self: center;
+    font-size: 50px;
+}
+
+
+.logo{   
+    width: 150px;
+    height: 150px;
+    margin-bottom: 40px;
+}
+
+.gps{
+    width: 25px;
+    height: 40px;
+    filter: drop-shadow(1px 1px black);
+    margin-right:4px;
+}
+
+.gps:active{
+    scale: 1.5;
+}
+
+.whatsapp{
+    width: 20px;
+}
+
+.button-57 {
+    position: relative;
+    overflow: hidden;
+    border: 3px solid #18181a;
+    color: #18181a;
+    display: inline-block;
+    line-height: 15px;
+    padding: 15px 15px;
+    text-decoration: none;
+    cursor: pointer;
+    background: red;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    border-radius: 50%;
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.button-57 span:first-child {
+    position: relative;
+    transition: color 300ms cubic-bezier(0.48, 0, 0.12, 1);
+    z-index: 10;
+}
+
+.button-57 span:last-child {
+    color: red;
+    font-weight: 700;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+    transition: all 200ms cubic-bezier(0.48, 0, 0.12, 1);
+    z-index: 100;
+    opacity: 0;
+    top: 55%;
+    left: 50%;
+    transform: translateY(225%) translateX(-50%);
+    height: 14px;
+    line-height: 13px;
+}
+
+.bag{
+    margin-left: 5px;
+    width: 50px;
+}
+
+.button-57:after {
+    content: "";
+    position: absolute;
+    bottom: -50%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    transform-origin: bottom center;
+    transition: transform 300ms cubic-bezier(0.48, 0, 0.12, 1);
+    transform: skewY(9.3deg) scaleY(0);
+    z-index: 50;
+}
+
+.button-57:hover:after {
+    transform-origin: bottom center;
+    transform: skewY(9.3deg) scaleY(2);
+}
+
+.button-57:hover span:last-child {
+    transform: translateX(-50%) translateY(-100%);
+    opacity: 1;
+    transition: all 900ms cubic-bezier(0.48, 0, 0.12, 1);
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    padding: 0px 0px 0px 540px;
+    justify-content: right;
+    align-items: center;
+}
+
+.links button{
+    margin: 10px;
+}
+
+.pixel-heart{
+    width: 25px;
+}
+
+.cupid{
+    width: 40px;
+    margin-right: 10px;
+    filter: drop-shadow(1px 1px 2px black);
+}
+
+
+.button-89 {
+    position: relative;
+    display: flex;  
+    flex-direction: row;
+    flex-wrap: wrap;
+    --b: 4px;   /* border thickness */
+    --s: .45em; /* size of the corner */
+    --color: red;
+    
+    padding: calc(0.5em + var(--s)) calc(0.5em + var(--s));
+    color: var(--color);
+    --_p: var(--s);
+    background:
+        conic-gradient(from 90deg at var(--b) var(--b),#0000 90deg,var(--color) 0)
+        var(--_p) var(--_p)/calc(100% - var(--b) - 2*var(--_p)) calc(100% - var(--b) - 2*var(--_p));
+    transition: .3s linear, color 0s, background-color 0s;
+    outline: var(--b) solid #0000;
+    outline-offset: .6em;
+    font-size: 30px;
+    border: 0;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.button-89 a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-family: "Reglisse", system-ui;
+    
+}
+.button-89 a img{
+    margin-left: 10px;
+    margin-right: 10px;
+    justify-content: center;
+}
+
+.button-89:hover,
+.button-89:focus-visible{
+    --_p: 0px;
+    outline-color: var(--color);
+    outline-offset: .05em;
+}
+
+.button-89:active {
+    background: var(--color);
+    color: #fff;
+}
+
+.button-89 .promo::after{
+    content:"PROMOS";
+    position: absolute;
+    font-family: 'Reglisse-fill';
+    color: red;
+    font-size: 30px;
+    margin-left: 60px;
+    text-shadow: 2px 2px 2px black;
+}
+
+.button-89 .novidades::after{
+    content:"NOVIDADES";
+    position: absolute;
+    font-family: 'Reglisse-fill';
+    color: red;
+    font-size: 30px;
+    text-shadow: 2px 2px 2px black;
+}
+
+@font-face {
+	font-family:'Reglisse';
+	src: url('./fonts/ReglisseBack.otf') format('opentype');
+}
+
+@font-face {
+font-family: 'Reglisse-fill';
+    src: url('./fonts/ReglisseFill.otf') format('opentype');
+}
