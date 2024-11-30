@@ -1,7 +1,10 @@
 {
-  "name": "threejs-toys",
+  "homepage": "https://MateusRissoDiBlasio.github.io/BioTransformacao",
+  "name": "biotransformacao",
   "version": "0.0.8",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "rollup": "rollup -c"
   },
