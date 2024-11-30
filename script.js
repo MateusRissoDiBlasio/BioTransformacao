@@ -5,7 +5,7 @@ var day = curtime.getDate();
 var dateOfString = (("" + day).length < 2 ? "0" : "") + day ;
 var dia = (dateOfString * 1) 
 
-var curmonth = 6;
+var curmonth = 1;
 // var dia = 12;
 
 console.log(curmonth);

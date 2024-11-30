@@ -2,7 +2,7 @@ import background from './src/backgrounds/butterflies'
 const bg = background({
   el: document.getElementById('app'),
   eventsEl: document.body,
-  gpgpuSize: 20,
+  gpgpuSize: 15,
   background: 0x4b0082,
   texture: '/butterflies.png',
   textureCount: 4,
