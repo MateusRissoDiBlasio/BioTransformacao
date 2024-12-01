@@ -3,5 +3,6 @@ export default {
   base: process.env.NODE_ENV === 'production' ? '/BioTransformacao/' : '/',
   plugins: [
     vitePluginString(),
+    base: "/BioTransformacao"
   ]
 }
