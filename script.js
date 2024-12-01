@@ -5,7 +5,7 @@ var day = curtime.getDate();
 var dateOfString = (("" + day).length < 2 ? "0" : "") + day ;
 var dia = (dateOfString * 1) 
 
-var curmonth = 6;
+var curmonth = 1;
 // var dia = 12;
 
 console.log(curmonth);
@@ -14,16 +14,16 @@ console.log(curmonth);
 
 if(curmonth == 1 || curmonth == 2 || curmonth == 3 || curmonth == 4 || curmonth == 5 || curmonth == 7 || curmonth == 8){
 
-    location.replace ("/bio-transformacao.html")
+    location.replace ("./bio-transformacao.html")
 
 }
 
 if(curmonth == 6){
     
     if((curmonth == 6) && (dia == 12) ){
-    location.replace ("/src/campanhas/Namorados/dia-namorados.html")
+    location.replace ("./src/campanhas/Namorados/dia-namorados.html")
         } else{
-            location.replace ("/src/campanhas/Namorados/namorados.html")
+            location.replace ("./src/campanhas/Namorados/namorados.html")
         }
 
 }
@@ -40,7 +40,7 @@ if(curmonth == 6){
 
 if(curmonth == 10){
 
-    location.replace ("/src/campanhas/OutubroRosa/outubro-rosa.html")
+    location.replace ("./src/campanhas/OutubroRosa/outubro-rosa.html")
     
 }
 
