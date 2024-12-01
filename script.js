@@ -14,7 +14,7 @@ console.log(curmonth);
 
 if(curmonth == 1 || curmonth == 2 || curmonth == 3 || curmonth == 4 || curmonth == 5 || curmonth == 7 || curmonth == 8){
 
-    location.replace ("./bio-transformacao.html")
+    location.replace ("./src/bio-transformacao.html")
 
 }
 
