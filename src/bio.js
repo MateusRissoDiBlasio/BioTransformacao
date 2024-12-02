@@ -1,10 +1,10 @@
-import background from './backgrounds/butterflies'
+import background from '../backgrounds/butterflies'
 const bg = background({
   el: document.getElementById('app'),
   eventsEl: document.body,
   gpgpuSize: 15,
   background: 0x4b0082,
-  texture: '/butterflies.png',
+  texture: '../../../public/butterflies.png',
   textureCount: 4,
   material: 'basic',
   materialParams: {
