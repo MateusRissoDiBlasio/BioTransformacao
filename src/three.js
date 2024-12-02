@@ -9,7 +9,7 @@ import {
 
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js'
 
-import pointer from './pointer'
+import pointer from './pointer.js'
 
 export default function (params) {
   const options = {
