@@ -2,9 +2,9 @@ import { Color, DoubleSide, HalfFloatType, InstancedBufferAttribute, InstancedMe
 import { GPUComputationRenderer } from 'three/examples/jsm/misc/GPUComputationRenderer.js'
 
 import three, { commonConfig, initLights } from '../../three.js'
-import psrdnoise from require('../../glsl/psrdnoise3.glsl')
-import mat3LookAt from require('../../glsl/mat3-lookat.glsl')
-import mat4Compose from require('../../glsl/mat4-compose.glsl')
+import psrdnoise from '../../glsl/psrdnoise3.glsl'
+import mat3LookAt from '../../glsl/mat3-lookat.glsl'
+import mat4Compose from '../../glsl/mat4-compose.glsl'
 import { colorScale } from '../../tools/color.js'
 
 const { randFloat: rnd, randFloatSpread: rndFS } = MathUtils
