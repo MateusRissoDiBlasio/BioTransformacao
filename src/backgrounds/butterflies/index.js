@@ -1,16 +1,5 @@
 import { Color, DoubleSide, HalfFloatType, InstancedBufferAttribute, InstancedMesh, MathUtils, MeshBasicMaterial, MeshPhongMaterial, MeshStandardMaterial, PlaneGeometry, TextureLoader, Vector3 } from 'three'
 import { GPUComputationRenderer } from 'three/examples/jsm/misc/GPUComputationRenderer.js'
-import { rollup } from '../../../node_modules/rollup-plugin-glsl/dist/rollup-plugin-glsl.js'
-
-rollup({entry: 'main.js',
-        plugins:[ 
-            glsl({
-              include:'lib/**/*.glsl,',
-              exclude:['**/index.html'],
-              sourceMap: false
-            })
-        ]
-})
 
 import three, { commonConfig, initLights } from '../../three.js'
 import psrdnoise from '../../glsl/psrdnoise3.glsl'
