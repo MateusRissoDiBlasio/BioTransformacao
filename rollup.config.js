@@ -2,6 +2,7 @@ import esbuild from 'rollup-plugin-esbuild'
 import glsl from 'rollup-plugin-glsl'
 import { nodeResolve } from '@rollup/plugin-node-resolve'
 import replace from '@rollup/plugin-replace'
+import glslify from 'rollup-plugin-glslify';
 
 function createConfig (format, outputFile, external, plugins = [], minify = false) {
   return {
@@ -14,6 +15,7 @@ function createConfig (format, outputFile, external, plugins = [], minify = fals
     },
     plugins: [
       ...plugins,
+      glslify(),
       glsl({
         include: 'src/glsl/**/*.glsl'
       }),
