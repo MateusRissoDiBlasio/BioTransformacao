@@ -6,7 +6,7 @@ export default {
   base: "/",
   plugins: [
     vitePluginString(), 
-    rollup({entry: 'main.js',
+    rollup({
       plugins:[ 
           glsl({
             include:'lib/**/*.glsl,',
