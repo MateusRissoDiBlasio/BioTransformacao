@@ -1,1 +1,1 @@
-export { default as butterfliesBackground } from './backgrounds/butterflies/index'
+export { default as butterfliesBackground } from './backgrounds/butterflies/index.js'
