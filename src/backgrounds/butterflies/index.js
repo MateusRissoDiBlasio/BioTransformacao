@@ -1,5 +1,5 @@
 import { Color, DoubleSide, HalfFloatType, InstancedBufferAttribute, InstancedMesh, MathUtils, MeshBasicMaterial, MeshPhongMaterial, MeshStandardMaterial, PlaneGeometry, TextureLoader, Vector3 } from 'three'
-import { default } from 'three/examples/jsm/misc/GPUComputationRenderer.js'
+import { GPUComputationRenderer } from 'https://cdn.skypack.dev/pin/three@v0.149.0-eN5PpLTGoHq5IPENPwOt/mode=raw/examples/jsm/misc/GPUComputationRenderer.js'
 
 import three, { commonConfig, initLights } from '../../three.js'
 import psrdnoise from '../../glsl/psrdnoise3.js';
