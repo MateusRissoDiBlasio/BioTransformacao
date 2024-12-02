@@ -1,4 +1,4 @@
-import background from '../backgrounds/butterflies'
+import background from '../src/backgrounds/butterflies'
 const bg = background({
   el: document.getElementById('app'),
   eventsEl: document.body,
