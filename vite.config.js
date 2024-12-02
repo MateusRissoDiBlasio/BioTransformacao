@@ -1,5 +1,5 @@
 import vitePluginString from 'vite-plugin-string'
-import { rollup } from '../../../node_modules/rollup-plugin-glsl/dist/rollup-plugin-glsl.js'
+import { rollup } from 'rollup-plugin-glsl.js'
 export default {
   // base: process.env.NODE_ENV === 'production' ? '/BioTransformacao/' : '/',
   base: "/",
