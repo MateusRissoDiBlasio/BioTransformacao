@@ -1,10 +1,21 @@
 import { Color, DoubleSide, HalfFloatType, InstancedBufferAttribute, InstancedMesh, MathUtils, MeshBasicMaterial, MeshPhongMaterial, MeshStandardMaterial, PlaneGeometry, TextureLoader, Vector3 } from 'three'
 import { GPUComputationRenderer } from 'three/examples/jsm/misc/GPUComputationRenderer.js'
+import { rollup } from 'BioTransformacao/node_modules/rollup-plugin-glsl/dist/rollup-plugin-glsl'
+
+rollup({entry: 'main.js',
+        plugins:[ 
+            glsl({
+              include:'lib/**/*.glsl,',
+              exclude:['**/index.html'],
+              sourceMap: false
+            })
+        ]
+})
 
 import three, { commonConfig, initLights } from '../../three.js'
-import psrdnoise from '../../glsl/psrdnoise3.glsl?raw'
-import mat3LookAt from '../../glsl/mat3-lookat.glsl?raw'
-import mat4Compose from '../../glsl/mat4-compose.glsl?raw'
+import psrdnoise from '../../glsl/psrdnoise3.glsl'
+import mat3LookAt from '../../glsl/mat3-lookat.glsl'
+import mat4Compose from '../../glsl/mat4-compose.glsl'
 import { colorScale } from '../../tools/color.js'
 
 const { randFloat: rnd, randFloatSpread: rndFS } = MathUtils
