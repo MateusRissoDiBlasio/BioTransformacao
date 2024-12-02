@@ -1,6 +1,6 @@
 import { Color, DoubleSide, HalfFloatType, InstancedBufferAttribute, InstancedMesh, MathUtils, MeshBasicMaterial, MeshPhongMaterial, MeshStandardMaterial, PlaneGeometry, TextureLoader, Vector3 } from 'three'
 import { GPUComputationRenderer } from 'three/examples/jsm/misc/GPUComputationRenderer.js'
-import { rollup } from '/BioTransformacao/node_modules/rollup-plugin-glsl/dist/rollup-plugin-glsl.js'
+import { rollup } from '../../../node_modules/rollup-plugin-glsl/dist/rollup-plugin-glsl.js'
 
 rollup({entry: 'main.js',
         plugins:[ 
