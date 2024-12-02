@@ -3,7 +3,14 @@ export default {
   // base: process.env.NODE_ENV === 'production' ? '/BioTransformacao/' : '/',
   base: "/",
   plugins: [
-    vitePluginString(),
-    
-  ]
+    vitePluginString() 
+  ],
+  module: {
+    loaders: [
+        {
+            test: /\.glsl$/,
+            loader: 'webpack-glsl'
+        }
+    ]
+}
 }
