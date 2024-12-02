@@ -1,4 +1,4 @@
-import background from './BioTransformacao/src/backgrounds/butterflies'
+import background from '/backgrounds/butterflies'
 const bg = background({
   el: document.getElementById('app'),
   eventsEl: document.body,
