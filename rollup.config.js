@@ -1,6 +1,6 @@
 import esbuild from 'rollup-plugin-esbuild'
-import glsl from 'BioTransformacao/node_modules/rollup-plugin-glsl/distrollup-plugin-glsl'
-import { nodeResolve } from 'BioTransformacao/node_modules/@rollup/plugin-node-resolve/dist/es@rollup/plugin-node-resolve'
+import glsl from 'rollup-plugin-glsl'
+import { nodeResolve } from '@rollup/plugin-node-resolve'
 import replace from '@rollup/plugin-replace'
 
 function createConfig (format, outputFile, external, plugins = [], minify = false) {
