@@ -1,11 +1,11 @@
 import { Color, DoubleSide, HalfFloatType, InstancedBufferAttribute, InstancedMesh, MathUtils, MeshBasicMaterial, MeshPhongMaterial, MeshStandardMaterial, PlaneGeometry, TextureLoader, Vector3 } from 'three'
 import { GPUComputationRenderer } from 'three/examples/jsm/misc/GPUComputationRenderer.js'
 
-import three, { commonConfig, initLights } from '../../three'
+import three, { commonConfig, initLights } from '../../three.js'
 import psrdnoise from '../../glsl/psrdnoise3.glsl'
 import mat3LookAt from '../../glsl/mat3-lookat.glsl'
 import mat4Compose from '../../glsl/mat4-compose.glsl'
-import { colorScale } from '../../tools/color'
+import { colorScale } from '../../tools/color.js'
 
 const { randFloat: rnd, randFloatSpread: rndFS } = MathUtils
 
