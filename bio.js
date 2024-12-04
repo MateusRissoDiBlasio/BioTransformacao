@@ -6,7 +6,7 @@ var body = document.body;
 var options = {
     el: root,
     eventsEl: body,
-    gpgpuSize: 20,
+    gpgpuSize: 15,
     background: 0x4b0082,
     // background:0xFFB6C1,
     material: "basic",
@@ -15,7 +15,7 @@ var options = {
         alphaTest: 0.5,
     },
     texture: "./src/images/butterflies.png",
-    textureCount: 3,
+    textureCount: 4,
     wingscale: [0.5,0.5,0.5,],
     wingsWidthSegments: 10,
     wingsHeightSegments: 10,

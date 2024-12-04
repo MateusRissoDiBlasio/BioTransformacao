@@ -5,7 +5,7 @@ import {butterfliesBackground} from "https://unpkg.com/bio-background@0.0.2/buil
     var options = {
         el: root,
         eventsEl: body,
-        gpgpuSize: 20,
+        gpgpuSize: 15,
         // background: 0xFF00FF,
         // background: 0xFF69A4,
         // background: 0xFF1493,
@@ -21,7 +21,7 @@ import {butterfliesBackground} from "https://unpkg.com/bio-background@0.0.2/buil
             alphaTest: 0.5,
         },
         texture: "./images/butterflies.png",
-        textureCount: 3,
+        textureCount: 4,
         wingscale: [0.5,0.5,0.5,],
         wingsWidthSegments: 10,
         wingsHeightSegments: 10,

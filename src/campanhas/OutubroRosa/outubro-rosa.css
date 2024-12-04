@@ -1,11 +1,12 @@
 .outubro-rosa{
-    background-image: url(./images/laco-escrito-outubro-rosa.svg);
+    background-image: url(/laco-escrito-outubro-rosa.svg);
     background-repeat: no-repeat;
     background-size: contain;
     align-items: center;
     justify-self: center;
     justify-items: center;
     background-position: center;
+    max-width: 425px;
 }
 
 main{
@@ -52,8 +53,9 @@ body,
 html,
 #app{
     margin:0;
-    width: 425px;
-    height: 720px;
+    min-width: 375px;
+    max-width: 768px;
+    height: 100vh;
     
 }
 
@@ -62,6 +64,7 @@ html,
     position: fixed;
     z-index: -1;
     top: 0;
+
 }
 
 .button-54 {
@@ -95,6 +98,7 @@ html,
     padding: 0px 20px 0px 20px;
     justify-content: center;
     align-items: center;
+    max-width:375px;
 }
 
 .links button{
@@ -148,12 +152,12 @@ html,
 }
 
 .button-55:hover {
-    box-shadow: rgba(0, 0, 0, 0) 2px 8px 8px -5px;
+    box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
     transform: translate3d(0, 2px, 0);
 }
 
 .button-55:focus {
-    box-shadow: rgba(0, 0, 0, 0) 2px 8px 4px -6px;
+    box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
 }
 /* } */
 

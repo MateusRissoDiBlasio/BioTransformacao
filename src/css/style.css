@@ -2,9 +2,13 @@ body,
 html,
 #app{
     margin:0;
-    width: 420px;
-    height: 800px;
-    
+    min-width: 375px;
+    max-width: 768px;
+    height: 100vh;
+}
+
+#app {
+    overflow: hidden;
 }
 
 #app canvas {
@@ -28,12 +32,14 @@ html,
 .bio{
     display: flex;
     flex-direction: column;
-    width: 420px;
-    max-height: 1080px;
-    padding: 5px;
+    min-width: 375px;
+    max-width: 768px;
+    min-height:100vh;
+    /* padding: 5px; */
     justify-content: center;
     align-items: center;
     /* background-image: linear-gradient(#800080, #be29ec, #be29ec, #be29ec, #800080); */
+    /* background-image: url(./../images/selecionar/outubro-rosa/teste-fundo1.png); */
 }
 
 .btns{
@@ -54,7 +60,8 @@ h1{
     font-weight: 500;
     font-size: 40px;
     color: aliceblue;
-    text-shadow: 2px 2px black;
+    /* text-shadow: 2px 2px black; */
+    text-shadow: 0 0 5px #ffffff, 0 0 20px #000, 0 0 30px #000;
 
 }
 .whatsapp-logo{
@@ -228,7 +235,7 @@ h1{
         #D8D8D8,
         #E8E8E8,
         #080808
-      );
+    );
     background-size: 300%;
     background-position: 100%;
     border-radius: 10px;
@@ -237,8 +244,8 @@ h1{
 
 .shine-button:active {
     color: goldenrod;
-  }
-  
+}
+
 .shine-button:active:after {
 background: #FFFFFF;
 
