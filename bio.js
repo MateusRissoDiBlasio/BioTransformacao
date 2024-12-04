@@ -1,5 +1,5 @@
 // import {butterfliesBackground} from "https://unpkg.com/threejs-toys@0.0.7/build/threejs-toys.module.cdn.js"
-import {butterfliesBackground} from "https://unpkg.com/bio-background@0.0.1/build/threejs-toys.module.cdn.js"
+import {butterfliesBackground} from "https://unpkg.com/bio-background@0.0.2/build/threejs-toys.module.cdn.js"
 
 var root = document.getElementById("app");
 var body = document.body;
