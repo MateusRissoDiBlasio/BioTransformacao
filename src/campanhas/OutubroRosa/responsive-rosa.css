@@ -1,0 +1,185 @@
+@media (max-width: 320px){
+
+h1{
+    font-size: 25px;
+    margin: 4px;
+}
+
+.frase{
+    font-size: 12px;
+    margin-bottom: 35px;
+}
+
+.logo{
+    margin-bottom: 5px;
+}
+
+.button-54 {
+
+    font-size: 12px;
+}
+
+.button-55 {
+    font-size: 36px;
+}
+}
+
+@media (min-width: 321px) and (max-width: 340px){ 
+
+    h1{
+        font-size: 25px;
+        margin: 4px;
+    }
+    
+    .frase{
+        font-size: 12px;
+        margin-bottom: 35px;
+    }
+    
+    .logo{
+        margin-bottom: 5px;
+    }
+    
+    .button-54 {
+    
+        font-size: 12px;
+    }
+    
+    .button-55 {
+        font-size: 36px;
+    }
+}
+
+@media (min-width: 341px) and (max-width: 359px){ 
+
+    h1{
+        margin: 4px;
+    }
+    
+    .frase{
+        font-size: 12px;
+        margin-bottom: 35px;
+    }
+    
+    .logo{
+        margin-bottom: 5px;
+    }
+    
+    .button-54 {
+        font-size: 12px;
+    }
+    
+    .button-55 {
+        font-size: 36px;
+    }
+
+    .links:last-child{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+}
+
+
+/* display instagram Gessyka*/
+
+@media (min-width: 360px) and (max-width: 375px){ 
+
+    h1{
+        font-size: 25px;
+        margin: 4px;
+    }
+    
+    .frase{
+        font-size: 10px;
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-bottom: 10px;
+    }
+    
+    .logo{
+        margin-top: 15px;
+        margin-bottom: 5px;
+    }
+    
+    .button-54 {
+        font-size: 10px;
+    }
+    
+    .button-55 {
+        font-size: 32px;
+    }
+    .links{
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .links:last-child{
+        padding-left: 45px;
+        padding-right: 45px;
+    }
+}
+
+/* display isntagram Penha*/
+
+@media (min-width: 376px) and (max-width: 425px){
+
+    body,
+    html,
+    #app{
+        height: 1024px;
+    }
+
+    .frase{
+        padding-left: 25px;
+        padding-right: 25px;
+        margin-bottom: 10px;
+        font-size: 14px;
+    }
+    
+    .logo{
+        margin-bottom: 5px;
+    }
+    
+    h1{
+        margin: 4px;
+    }
+
+    .links{
+        padding-left: 45px;
+        padding-right: 45px;
+    }
+    
+    .links:last-child{
+        padding-left: 55px;
+        padding-right: 55px;
+    }
+
+} 
+
+@media (min-width: 426px) and (max-width: 768px){
+    body,
+    html,
+    #app{
+        width: 768px;
+        height: 1024px;
+}
+}
+
+@media (min-width: 769px) {
+    
+    body,
+    html,
+    #app{
+        width: 768px;
+        height: 1024px;
+}
+
+.outubro-rosa{
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+main{
+    max-width: 768px;
+}
+
+}
