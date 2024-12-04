@@ -2,8 +2,7 @@ body,
 html,
 #app{
     margin:0;
-    min-width: 375px;
-    max-width: 768px;
+    width: 100vw;
     height: 100vh;
 }
 
@@ -19,10 +18,11 @@ html,
 }
 
 .top{
+    display: flex;
     height: 200px;
     margin-top: 20px;
     margin-bottom: 10px;
-    align-content: center;
+    justify-content: center;
 }
 
 .top img{
@@ -32,9 +32,8 @@ html,
 .bio{
     display: flex;
     flex-direction: column;
-    min-width: 375px;
-    max-width: 768px;
-    min-height:100vh;
+    width: 100vw;
+    min-height: 100vh;
     /* padding: 5px; */
     justify-content: center;
     align-items: center;
@@ -192,6 +191,7 @@ h1{
 }
 
 .bottom{
+    display: flex;
     margin-top: 20px;
     justify-content: center;
     align-items: center;
