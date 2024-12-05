@@ -144,8 +144,8 @@
     }
             
     h1{
-        font-size: 35px;
-        margin-top: 20px;
+        font-size: 30px;
+        margin-top: 10px;
         /* color: lime; */
     }
     
@@ -192,18 +192,20 @@
         --b: 4px;   /* border thickness */
         --s: 0.5em; /* size of the corner */
         
-        padding: calc(16px + var(--s)) calc(24px + var(--s));
+        padding: calc(4px + var(--s)) calc(4px + var(--s));
         outline-offset: .5em;
         margin-top: 10px;
-        margin-left: 30px;
-        margin-right: 30px;
+        margin-left: 20px;
+        margin-right: 20px;
+        align-items: center;
+        justify-content: center;
     }
     
     /* BUTTON HEART */
 
     .heart-btn {
-        width: 144px;
-        height: 48px;
+        width: 165px;
+        height: 55px;
         position: relative;
         font-size: 0.5em;   
     }
@@ -214,23 +216,23 @@
     }
 
     input[type="checkbox"]:checked + button::before { 
-        transform: rotate(45deg) translate(2em , -2em);
+        transform: rotate(45deg) translate(2.2em , -2.4em);
     }
 
     input[type="checkbox"]:checked + button::after { 
-        transform: rotate(-45deg) translate(-1.9em , -1.8em);
+        transform: rotate(-45deg) translate(-2.1em , -2.2em);
     }
 
     input[type="checkbox"] + button span:last-child { 
-        width: 144px;
-        height: 48px;
+        width: 165px;
+        height: 55px;
     }
 
     .button-57 {
-        width: 144px;
-        height: 48px;
+        width: 165px;
+        height: 55px;
         font-size: 12px;
-        margin-left:-144px;
+        margin-left:-165px;
         font-weight: 500;
     }
 
