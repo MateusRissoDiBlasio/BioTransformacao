@@ -66,6 +66,10 @@
         margin-left: 20px;
         margin-right: 20px;
     }
+
+    a.promo{
+        margin-right: 61.16px;
+    }
     
     /* BUTTON HEART */
 
@@ -192,14 +196,15 @@
         --b: 4px;   /* border thickness */
         --s: 0.5em; /* size of the corner */
         
-        padding: calc(4px + var(--s)) calc(4px + var(--s));
+        padding: calc(10px + var(--s)) calc(0px + var(--s));
         outline-offset: .5em;
         margin-top: 10px;
-        margin-left: 20px;
-        margin-right: 20px;
+        margin-left: 40px;
+        margin-right: 40px;
         align-items: center;
         justify-content: center;
     }
+
     
     /* BUTTON HEART */
 
