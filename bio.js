@@ -1,4 +1,3 @@
-// import {butterfliesBackground} from "https://unpkg.com/threejs-toys@0.0.7/build/threejs-toys.module.cdn.js"
 import {butterfliesBackground} from "https://unpkg.com/bio-background@0.0.2/build/threejs-toys.module.cdn.js"
 
 var root = document.getElementById("app");
@@ -16,10 +15,10 @@ var options = {
     },
     texture: "./src/images/butterflies.png",
     textureCount: 4,
-    wingscale: [0.5,0.5,0.5,],
+    wingscale: [0.5,0.5,0.5],
     wingsWidthSegments: 10,
     wingsHeightSegments: 10,
-    wingsSpeed: 1.5,
+    wingsSpeed: 1,
     wingsDisplacementScale: 2,
     noiseCoordScale: 0.01,
     noiseTimeCoef: 0.005,
