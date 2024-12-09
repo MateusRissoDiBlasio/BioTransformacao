@@ -39,6 +39,7 @@ html,
     align-items: center;
     /* background-image: linear-gradient(#800080, #be29ec, #be29ec, #be29ec, #800080); */
     /* background-image: url(./../images/selecionar/outubro-rosa/teste-fundo1.png); */
+    overflow: hidden;
 }
 
 .btns{
