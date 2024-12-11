@@ -66,7 +66,7 @@
             </div>
                         
             <div class="footer">
-                <button class="deviconbtn" onclick="showhideinfo()">
+                <button id="deviconbtn" class="deviconbtn" >
                     <svg id="devi" class="d"
                         viewBox="0 0 448 512"
                         version="1.1"
@@ -126,9 +126,9 @@
                     </svg>
                 </button>
                 
-                <div class="devinfo" id="devinfo" onclick="devlinks()" >
+                <div class="devinfo" id="devinfo" >
                     <p>criado por</p>
-                    <div id="svg">
+                    <div id="svg" onclick="devlinks()">
                             
                             <!-- Monitor "screen" -->
                             <!-- <img id="screen" src="./img/monitor2.svg" alt="">  -->
