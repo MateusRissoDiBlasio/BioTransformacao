@@ -48,7 +48,7 @@
     margin: 0;
     padding: 0;
     width: 25px;
-    height:28.56px;
+    height:25px;
     margin-left: 10px;
     background: transparent;
     z-index: 30;
@@ -107,7 +107,8 @@
 }
 
 .devcolor{
-    fill: green;
+    /* fill: green; */
+    fill: #4ff900;
 }
 
 
@@ -128,8 +129,8 @@
 }
 
 .d{
-    width:fit-content;
-    height: fit-content;
+    width:25px;
+    height: 25px;
     position: relative;
     align-items: flex-start;
     justify-content: flex-start;
