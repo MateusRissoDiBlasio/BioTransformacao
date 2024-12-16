@@ -1086,10 +1086,11 @@
 
 }
 
-@media (min-height: 665px) and (max-height: 673px) and (min-width: 360px) and (max-width: 375px){
+@media (min-height: 665px) and (max-height: 672px) and (min-width: 360px) and (max-width: 375px){
 
     .footer{
         margin-top: -30vh;
+        height: 150px;
     }
 
     .footer p{
@@ -1104,7 +1105,7 @@
 
     .deviconbtn{
         fill: white;
-        margin-top: 180px;
+        margin-top: 168px;
         margin-left: 5px;
     }
     
@@ -1161,10 +1162,11 @@
 
 }
 
-@media (min-height: 674px) and (max-height: 680px) and (min-width: 360px) and (max-width: 375px){
+@media (min-height: 673px) and (max-height: 680px) and (min-width: 360px) and (max-width: 375px){
 
     .footer{
         margin-top: -30vh;
+        height: 150px;
     }
 
     .footer p{
@@ -1179,7 +1181,7 @@
 
     .deviconbtn{
         fill: white;
-        margin-top: 182px;
+        margin-top: 180px;
         margin-left: 5px;
     }
     
@@ -1436,6 +1438,7 @@
 @media (min-height: 681px) and (max-height: 690px) and (min-width: 360px) and (max-width: 375px){
     .footer{
         margin-top: -30vh;
+        height: 150px;
     }
 
     .footer p{
@@ -1511,6 +1514,7 @@
 
     .footer{
         margin-top: -30vh;
+        height: 150px;
     }
 
     .footer p{
@@ -1525,7 +1529,7 @@
 
     .deviconbtn{
         fill: white;
-        margin-top: 205px;
+        margin-top: 202px;
         margin-left: 5px;
     }
     
@@ -1586,6 +1590,7 @@
 
     .footer{
         margin-top: -30vh;
+        height: 150px;
     }
 
     .footer p{
@@ -1661,6 +1666,7 @@
 
     .footer{
         margin-top: -30vh;
+        height: 150px;
     }
 
     .footer p{
@@ -1736,6 +1742,7 @@
 
     .footer{
         margin-top: -30vh;
+        height: 150px;
     }
 
     .footer p{
@@ -1750,7 +1757,7 @@
 
     .deviconbtn{
         fill: white;
-        margin-top: 250px;
+        margin-top: 248px;
         margin-left: 5px;
     }
     
