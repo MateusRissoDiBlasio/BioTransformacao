@@ -1106,6 +1106,7 @@
     .deviconbtn{
         fill: white;
         align-self: flex-end;
+        margin-top: 40px;
         margin-left: 5px;
     }
     
