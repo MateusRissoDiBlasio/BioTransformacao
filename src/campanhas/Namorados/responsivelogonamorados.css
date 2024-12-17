@@ -1089,7 +1089,7 @@
 @media (min-height: 665px) and (max-height: 672px) and (min-width: 360px) and (max-width: 375px){
 
     .footer{
-        margin-top: -90px;
+        margin-top: -80px;
         height: 150px;
     }
 
@@ -1137,14 +1137,14 @@
     @keyframes smoothshow{
         0%{
             visibility: visible;
-            transform: translate(-250px, -175px);
+            transform: translate(-250px, -205px);
             z-index: 100;
             
         }
     
         100%{
             visibility: visible;
-            transform: translate(-20px, -175px);
+            transform: translate(-20px, -205px);
             z-index: 100;
         } 
     }
@@ -1152,13 +1152,13 @@
     @keyframes fade-out{
         0% {
             z-index: 3;
-            transform: translate(-20px, -175px);
+            transform: translate(-20px, -205px);
             visibility: visible; 
             opacity: 1; }   
         
         100% { 
             z-index: 3;
-            transform: translate(-20px, -175px);
+            transform: translate(-20px, -205px);
             opacity: 0; }
     }
 
