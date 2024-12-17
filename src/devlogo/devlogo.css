@@ -59,29 +59,29 @@
 }
 
 .on{
-    animation: smoothshow 2s ease forwards;
+    animation: smoothshow 1s ease forwards;
     
     #botaoliga {
         #borda{
-            animation: ligar 3s forwards;
+            animation: ligar 1.3s forwards;
         }
         #cima{
-            animation: ligar 3s forwards;
+            animation: ligar 1.3s forwards;
         }
     }
 
     #name {   
         #d{
-            animation: fadeinleft 2s ease-in 11s forwards;
+            animation: fadeinleft 1s ease-in 4.5s forwards;
         }
         #e{
-            animation: fadeincenter 2s ease-in 12s forwards;
+            animation: fadeincenter 1s ease-in 4.5s forwards;
         }
         #v{
-            animation: fadeinright 2s ease-in 13s forwards;
+            animation: fadeinright 1s ease-in 4.5s forwards;
         }
         #diblasioname{
-            animation: fadeinup 1s ease-in 14s forwards;     
+            animation: fadeinup 1s ease-in 4.5s forwards;     
         }
     }
 
@@ -91,17 +91,17 @@
 
     #displayWhite {
         animation: ligarmonitor 0.5s ease-in-out forwards;
-        animation-delay: 4s;
+        animation-delay: 1s;
     }
 
     #codinglogo {
-        animation: fadein 3.5s ease-in-out;
-        animation-delay: 4.3s;
+        animation: fadein 2.1s ease-in-out;
+        animation-delay: 1s;
     }
 
     #matrix {
-        animation: showandfade 5.5s forwards;
-        animation-delay: 7.4s;
+        animation: showandfade 2s forwards;
+        animation-delay: 3s;
     }
     
 }
@@ -114,7 +114,7 @@
 
 .off{
 
-    animation: fade-out 2s ease-out forwards;
+    animation: fade-out 1.5s ease-out forwards;
 }
 
 
