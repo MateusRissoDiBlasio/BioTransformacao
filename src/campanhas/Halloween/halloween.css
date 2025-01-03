@@ -1,11 +1,14 @@
 #app{
     width: 768px;
     height:765px;
+    margin-top: -3px;
+    margin-left: -4px;
     /* background-image: url(../Halloween/img/fundo/escolha.png);
     background-repeat: no-repeat;
     background-size: 768px 765px; */
     align-items: right;
     /* background-color: yellow; */
+    overflow: hidden;
 }
 
 main{
