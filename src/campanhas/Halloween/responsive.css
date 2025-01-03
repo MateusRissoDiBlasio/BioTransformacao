@@ -1105,25 +1105,36 @@
     left: 0px;
     }
 
+    .bloody section{
+
+        width:302.42px;
+    }
+
     .blooddrop:nth-of-type(1) {           
-        left: 85px;
+        position: relative;
+        left: 50px;
     }
 
     .blooddrop:nth-of-type(2) {
-        left: 137px;
+        position: relative;
+        left: 100px;
     }
 
     .blooddrop:nth-of-type(3) {    
-        left: 248px;
+        position: relative;
+        margin-top:-9px;
+        left: 215px;
     }
 
     .blooddrop:nth-of-type(4) {
-    left: 328px;
+        position: relative;
+        margin-top:-11px;
+        left: 295px;
     }
 
     @keyframes drip {
         0% {
-            top: 271px;
+            top: -12px;
         }
         100% {
             top: 800px;
@@ -1963,30 +1974,41 @@
     left: 0px;
     }
 
+    .bloody section{
+
+        width:302.42px;
+    }
+
     .blooddrop:nth-of-type(1) {           
-        left: 85px;
+        position: relative;
+        left: 50px;
     }
 
     .blooddrop:nth-of-type(2) {
-        left: 137px;
+        position: relative;
+        left: 100px;
     }
 
     .blooddrop:nth-of-type(3) {    
-        left: 248px;
+        position: relative;
+        margin-top:-9px;
+        left: 215px;
     }
 
     .blooddrop:nth-of-type(4) {
-    left: 328px;
+        position: relative;
+        margin-top:-11px;
+        left: 295px;
     }
 
     @keyframes drip {
         0% {
-            top: 307px;
+            top: -12px;
         }
         100% {
             top: 800px;
         }
-    }    
+    }
         
 }
 

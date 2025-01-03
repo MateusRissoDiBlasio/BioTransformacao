@@ -61,6 +61,18 @@ h1{
     z-index: 3;
 }
 
+.bloody{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+
+.bloody section{
+  width: 540.7px;
+}
+
 .gps{
     width: 40px;
     height: 50px;
@@ -521,7 +533,7 @@ div.carona div::after{
 } */
 @keyframes drip {
   0% {
-    top: 317px;
+    top: 26px;
   }
   100% {
     top: 800px;
