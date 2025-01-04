@@ -243,6 +243,7 @@
 
     #fundo{
         margin-left: -80px;
+        margin-top: -3px;
         width: 604px;
         height: 603px;
         
@@ -1388,6 +1389,7 @@
 
     #fundo{
         margin-left: -90px;
+        margin-top: -3px;
         width: 634px;
         height: 633px;
     }
@@ -2533,6 +2535,7 @@
 
     #fundo{
         margin-left: -100px;
+        margin-top: -3px;
         width: 669px;
         height: 668px;
     }
