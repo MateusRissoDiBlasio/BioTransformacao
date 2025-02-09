@@ -223,6 +223,7 @@ animation: fadeinlogo 2s ease-in 11s forwards;
 .placa:hover{
   scale: 1.1;
   filter: drop-shadow(4px 4px 2px gray);
+  cursor: pointer;
 }
 
 .carona div{
