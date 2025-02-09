@@ -306,6 +306,7 @@ div.carona div::after{
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
+  cursor: pointer;
 }
 
 .button-49:after {
