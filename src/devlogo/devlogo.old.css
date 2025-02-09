@@ -1,0 +1,371 @@
+.footer{
+    width: 100vw;
+    margin-top: 20px;
+    display: flex;
+    align-items: flex-start;
+}
+.footer a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100px;
+}
+
+.footer p{
+    margin-top: 0px;
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    color: #FFFFFF;
+    margin-top: 7px;
+    margin-bottom: -30px;
+    margin-left: -160px;
+    align-self: center;
+    text-shadow: 1px 1px black;
+    overflow: hidden;
+}
+
+.devinfo{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 100vw;
+    height: 120px;
+    margin-left: -35px;
+    overflow: hidden;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+}
+
+.deviconbtn{
+    display: block;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    width: 25px;
+    height:28.56px;
+    margin-left: 10px;
+    background: transparent;
+    z-index: 30;
+    box-shadow: none;
+    border: none;
+    margin-top: -30px;
+
+
+}
+
+.on{
+    animation: smoothshow 3s ease forwards;
+}
+
+#svg:hover {
+    cursor: pointer;
+    
+    /* #screen{
+        fill: white;
+    }
+
+    #name{
+        fill:white;
+    }    
+    #displayBlack{
+        fill:white;
+    }
+    #displayWhite{
+        fill:blue;
+    } */
+
+    filter:drop-shadow(2px -2px 0.7px deepskyblue);
+    scale: 1.2;
+    opacity: 1;
+    #displayWhite{
+        box-shadow: 0px 0px 0px  white;
+    }
+
+    
+}
+
+.d{
+    width:fit-content;
+    height: fit-content;
+    position: relative;
+    align-items: flex-start;
+    justify-content: flex-start;
+    cursor: pointer;
+    margin-left: -1.5px;
+    margin-top: -1px;
+    z-index: 2;
+    padding: 0;
+    /* visibility: hidden; */
+    
+}
+
+/* .d:hover ~ .devinfo {
+    visibility: visible;
+} */
+
+#svg{
+    width: 100px;
+    height: 100px;
+    /* border: 1px solid #FFFFFF; */
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    cursor: pointer;
+    
+}
+
+#screen{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    z-index: 2;
+    align-self: center;
+    fill:rgb(0, 0, 0);
+    
+}
+
+#botaoliga{
+    position: absolute;
+    z-index: 2;
+    width: 6px;
+    height: 10px;
+    margin-top: 69.5px;
+    #borda{
+        fill:red;
+        filter:drop-shadow(0px 0px 8px red);
+        animation: ligar 3s forwards;
+    }
+    #cima{
+        fill:red;
+        filter:drop-shadow(0px 0px 8px red);
+        animation: ligar 3s forwards;
+    }
+}
+
+#name{
+    position: absolute;
+    width: 90px;
+    height: 55px;
+    z-index: 1;
+    margin-top: -22px;
+    align-self: center;
+    fill: black;
+    opacity: 1;    
+    /* animation-delay: 9.5s; */
+    /* visibility: hidden; */
+    overflow-y: hidden;
+    overflow-x: hidden;
+    
+    #d{
+        position: absolute;
+        opacity: 0;
+        animation: fadeinleft 2s ease-in 11s forwards;
+    }
+
+    #e{
+        position: absolute;
+        opacity: 0;
+        animation: fadeincenter 2s ease-in 12s forwards;
+    }
+
+    #v{
+        position: absolute;
+        opacity: 0;
+        animation: fadeinright 2s ease-in 13s forwards;
+    }
+    #diblasioname{
+        position: absolute;
+        opacity: 0;
+        animation: fadeinup 1s ease-in 14s forwards;
+        
+    }
+}
+
+#code{
+    position: absolute;
+    width: 60px;
+    height: 100px;
+    z-index: 1;
+    justify-self: center;
+    align-self: center;
+    fill:black;
+    margin-top: -20px;
+    visibility: hidden;
+}
+
+#displayBlack{
+    position: absolute;
+    width: 91px;
+    height: 76px;
+    margin-top: -24px;
+    fill: #202020;
+    z-index: 0;
+    animation: fadeinindex 0.3s ;
+    /* visibility: hidden; */
+}
+
+#displayWhite{
+    position: absolute;
+    width: 91px;
+    height: 55px;
+    margin-top: -24px;
+    fill: #FFFFFF;
+    z-index: 1;
+    animation: ligarmonitor 0.5s ease-in-out forwards;
+    animation-delay: 4s;
+    opacity: 0;
+    box-shadow: 2px 2px 20px  white;
+    /* visibility: hidden; */
+}
+
+#diblasio{
+    position: absolute;
+    width: 150px;
+    height: 100px;
+    margin-bottom: -100px;
+    visibility: hidden;
+}
+
+#codinglogo{
+    position: absolute;
+    width: 60px;
+    height: 76px;
+    margin-top: -24px;
+    z-index: 1;
+    animation: fadein 3.5s ease-in-out;
+    animation-delay: 4.3s;
+    opacity: 0;
+    /* visibility: hidden; */
+}
+
+#matrix{
+    width: 91px;
+    height: 55px;
+    margin-top: -23px;
+    z-index: 1;
+    animation: showandfade 5.5s forwards ;
+    animation-delay: 7.4s;
+    /* visibility: hidden; */
+    opacity: 0;
+}
+
+@keyframes ligarmonitor{
+    0%{   opacity: 0;
+            width: 91px;
+    }
+    
+    100%{
+        opacity: 1;
+        width: 91px;
+    }
+
+}
+
+@keyframes ligar{
+    0%{   
+        fill:red;
+        filter:drop-shadow(0px 0px 8px red);
+    }
+    
+    75%{   
+        fill:red;
+        filter:drop-shadow(0px 0px 8px red);
+    }
+    
+    100%{
+        fill:#0000ff;
+        filter:drop-shadow(0px 0px 8px aliceblue)
+    }
+
+}
+
+
+
+@keyframes fadein{
+    from{
+        opacity: 0;
+    }
+
+    to{
+        opacity: 1;
+    }
+}
+
+@keyframes show{
+    from{ opacity: 0; }
+    to  { opacity: 1; }
+}
+
+@keyframes showandfade{
+    5% { opacity: 1; }   
+    95% { opacity: 1; }
+    100% { opacity: 0; }
+}
+
+@keyframes fadeinleft{
+   0%{
+        opacity: 1;
+        transform: translate(-150px,-75px)
+   }
+
+   100%{
+        opacity: 1;
+        transform: translateY(0px), translateX(0px);
+   } 
+    
+}
+
+@keyframes fadeinright{
+    0%{
+        opacity: 1;
+        transform: translate(150px,-75px)
+   }
+
+   100%{
+        opacity: 1;
+        transform: translateY(0px), translateX(0px);
+   } 
+    
+}
+
+@keyframes fadeincenter{
+    0%{
+        opacity: 1;
+        transform: translateY(-100px);
+   }
+
+   100%{
+        opacity: 1;
+        transform: translateY(0px);
+   } 
+    
+}
+
+@keyframes fadeinup{
+    0%{
+        opacity: 1;
+        transform: translateY(100px);
+   }
+
+   100%{
+        opacity: 1;
+        transform: translateY(0px);
+   } 
+    
+}
+
+@keyframes smoothshow{
+    0%{
+        visibility: visible;
+        transform: translateY(150px);
+   }
+
+   100%{
+        visibility: visible;
+        transform: translateY(0px);
+   } 
+
+}

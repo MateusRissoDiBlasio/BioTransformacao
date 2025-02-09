@@ -1,0 +1,229 @@
+@media (max-height: 600px){
+    .devinfo{
+        background: rgba(000,000,000, 0.6); 
+
+    }
+
+    .deviconbtn{
+
+        margin-top: -30px;
+    }
+
+    @keyframes smoothshow{
+        0%{
+            visibility: visible;
+            transform: translateY(150px);
+        }
+    
+        100%{
+            visibility: visible;
+            transform: translateY(-70px);
+            z-index: 3;
+        } 
+    
+    }
+
+    @keyframes fade-out{
+        0% {
+            z-index: 3;
+            transform: translateY(-70px);
+            visibility: visible; 
+            opacity: 1; }   
+        
+        100% { 
+            z-index: 3;
+            transform: translateY(-70px);
+            opacity: 0; }
+    }
+
+}
+
+@media (min-height: 601px) and (max-height: 630px){
+    .devinfo{
+        background: rgba(000,000,000, 0.6); 
+
+    }
+
+    .deviconbtn{
+
+        margin-top: -30px;
+    }
+
+    @keyframes smoothshow{
+        0%{
+            visibility: visible;
+            transform: translateY(150px);
+        }
+    
+        100%{
+            visibility: visible;
+            transform: translateY(-60px);
+            z-index: 3;
+        } 
+    
+    }
+
+    @keyframes fade-out{
+        0% {
+            z-index: 3;
+            transform: translateY(-60px);
+            visibility: visible; 
+            opacity: 1; }   
+        
+        100% { 
+            z-index: 3;
+            transform: translateY(-60px);
+            opacity: 0; }
+    }
+
+
+}
+
+@media (min-height: 631px) and (max-height: 645px){
+    .devinfo{
+        background: rgba(000,000,000, 0.6); 
+
+    }
+
+    .deviconbtn{
+
+        margin-top: -30px;
+    }
+
+    @keyframes smoothshow{
+        0%{
+            visibility: visible;
+            transform: translateY(150px);
+        }
+    
+        100%{
+            visibility: visible;
+            transform: translateY(-35px);
+            z-index: 3;
+        } 
+    
+    }
+
+    @keyframes fade-out{
+        0% {
+            z-index: 3;
+            transform: translateY(-35px);
+            visibility: visible; 
+            opacity: 1; }   
+        
+        100% { 
+            z-index: 3;
+            transform: translateY(-35px);
+            opacity: 0; }
+    }
+
+
+}
+
+@media (min-height: 646px) and (max-height: 664px){
+    .devinfo{
+        background: rgba(000,000,000, 0.6); 
+
+    }
+
+    .deviconbtn{
+
+        margin-top: -30px;
+    }
+
+    @keyframes smoothshow{
+        0%{
+            visibility: visible;
+            transform: translateY(150px);
+        }
+    
+        100%{
+            visibility: visible;
+            transform: translateY(-20px);
+            z-index: 3;
+        } 
+    
+    }
+
+    @keyframes fade-out{
+        0% {
+            z-index: 3;
+            transform: translateY(-20px);
+            visibility: visible; 
+            opacity: 1; }   
+        
+        100% { 
+            z-index: 3;
+            transform: translateY(-20px);
+            opacity: 0; }
+    }
+
+
+}
+
+@media (min-height: 665px) and (max-height: 680px){
+    .devinfo{
+        background: rgba(000,000,000, 0.6); 
+
+    }
+
+    @keyframes smoothshow{
+        0%{
+            visibility: visible;
+            transform: translateY(150px);
+        }
+    
+        100%{
+            visibility: visible;
+            transform: translateY(-10px);
+            z-index: 3;
+        } 
+    
+    }
+
+    @keyframes fade-out{
+        0% {
+            z-index: 3;
+            transform: translateY(-10px);
+            visibility: visible; 
+            opacity: 1; }   
+        
+        100% { 
+            z-index: 3;
+            transform: translateY(-10px);
+            opacity: 0; }
+    }
+
+    
+}
+
+@media (min-height: 681px) and (max-height: 735px){
+
+    @keyframes smoothshow{
+        0%{
+            visibility: visible;
+            transform: translateY(150px);
+        }
+    
+        100%{
+            visibility: visible;
+            transform: translateY(-15px);
+            z-index: 3;
+        } 
+    
+    }
+
+    @keyframes fade-out{
+        0% {
+            z-index: 3;
+            transform: translateY(-15px);
+            visibility: visible; 
+            opacity: 1; }   
+        
+        100% { 
+            z-index: 3;
+            transform: translateY(-15px);
+            opacity: 0; }
+    }
+
+}

@@ -1,0 +1,291 @@
+#app{
+    width: 768px;
+    height:765px;
+    background-image: url(./images/ajuste-768.png);
+    background-repeat: no-repeat;
+    background-size: 768px 765px;
+    align-items: right;
+    /* background-color: yellow; */
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    width: 768px;
+    height: 765px;
+    
+
+}
+.namorados{
+    width: 768px;
+    height: 765px;
+    
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    max-width: 768px;
+    height: 200px;
+}
+
+
+
+h1{
+    font-family: "Bebas Neue", sans-serif;
+    color: goldenrod;
+    text-shadow: 2px 2px black;
+    align-self: center;
+    font-size: 50px;
+}
+
+
+/* .logo{   
+    width: 180px;
+    height: 180px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    filter: drop-shadow(0 0 1.5rem purple); */
+    /* animation: logoshadow 30s ease-in 0.4s both; */
+/* } */
+
+/* @keyframes logoshadow {
+    0%{filter: drop-shadow(10px 10px 1.5rem purple);}
+    33%{filter: drop-shadow(-10px 10px 1.5rem purple);}
+    66%{filter: drop-shadow(-10px -10px 1.5rem purple);}
+    75%{filter: drop-shadow(10px -10px 1.5rem purple);}
+    100%{filter: drop-shadow(0 0 1.5rem purple);}
+} */
+
+.gps{
+    width: 25px;
+    height: 40px;
+    filter: drop-shadow(1px 1px black);
+    margin-right:4px;
+}
+
+.msg{
+    margin-left: 15px;
+    /* font-family: 'Poetsen One'; */
+    /* font-family: "Dancing Script"; */
+    font-family: "Parisienne";
+    text-shadow: 0.8px 0.8px black;
+}
+
+.gps:active{
+    scale: 1.5;
+}
+
+.whatsapp{
+    width: 35px;
+    margin: 5px;
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    /* padding: 0px 0px 0px 540px; */
+    justify-content: right;
+    align-items: center;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-right: 10px;
+}
+
+.links:last-child{
+
+    padding: 0px 390px 0px 0px;
+}
+
+.links a{
+    margin: 5px;
+}
+
+/* .links button{
+    margin: 10px;
+} */
+
+.pixel-heart{
+    width: 25px;
+}
+
+.cupid{
+    width: 40px;
+    margin-right: 10px;
+    filter: drop-shadow(1px 1px 2px black);
+}
+
+
+.button-89 {
+    position: relative;
+    display: flex;  
+    flex-direction: row;
+    flex-wrap: wrap;
+    --b: 4px;   /* border thickness */
+    --s: 0.3em; /* size of the corner */
+    --color: red;
+    
+    padding: calc(0.5em + var(--s)) calc(0.5em + var(--s));
+    color: var(--color);
+    --_p: var(--s);
+    background:
+        conic-gradient(from 90deg at var(--b) var(--b),#0000 90deg,var(--color) 0)
+        var(--_p) var(--_p)/calc(100% - var(--b) - 2*var(--_p)) calc(100% - var(--b) - 2*var(--_p));
+    transition: .3s linear, color 0s, background-color 0s;
+    outline: var(--b) solid #0000;
+    outline-offset: .6em;
+    font-size: 30px;
+    border: 0;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    margin-left: 30px;
+    margin-top: -140px;
+    justify-content: center;
+}
+
+.button-89 a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-family: "Reglisse", system-ui;
+    
+}
+.button-89 a img{
+    margin-left: 10px;
+    margin-right: 10px;
+    justify-content: center;
+}
+
+.button-89:hover,
+.button-89:focus-visible{
+    --_p: 0px;
+    outline-color: var(--color);
+    outline-offset: .05em;
+}
+
+.button-89:active {
+    background: var(--color);
+    color: #fff;
+}
+
+.button-89 .promo::after{
+    content:"PROMOS";
+    position: absolute;
+    font-family: 'Reglisse-fill';
+    color: red;
+    font-size: 30px;
+    margin-left: 60px;
+    text-shadow: 2px 2px 2px black;
+}
+
+.button-89 .novidades::after{
+    content:"NOVIDADES";
+    position: absolute;
+    font-family: 'Reglisse-fill';
+    color: red;
+    font-size: 30px;
+    text-shadow: 2px 2px 2px black;
+}
+
+a.promo{
+    margin-right: 61.16px;
+}
+
+@font-face {
+	font-family:'Reglisse';
+	src: url('./fonts/ReglisseBack.otf') format('opentype');
+}
+
+@font-face {
+font-family: 'Reglisse-fill';
+    src: url('./fonts/ReglisseFill.otf') format('opentype');
+}
+
+.base{
+    display: flex;
+    position: relative;
+    max-width: 50vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.carona{
+display: flex;
+width: 170px;
+max-width: 80%;
+height: 170px;
+justify-content: center;
+position: relative;
+left: 25%;
+}
+
+.logo{
+position: relative;
+width: 180px;
+height: 180px;
+left: -25%;
+/* top: 20.5%;
+right: 35%; */
+}
+
+.carona div{
+width: 100%;
+height: 100%;
+border-radius: 50%;
+background-color: #111;
+box-shadow: 0px 0px 60px purple;
+position: relative;
+}
+
+div.carona div::before{
+content: "";
+display: block;
+width: 90%;
+height: 90%;
+border: 2px solid red;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%) rotate(-30deg);
+border-radius: 40%;
+box-shadow: 40px 5px 100px purple;
+animation-name: carona;
+animation-duration: 30s;
+animation-iteration-count: infinite;
+animation-timing-function: ease-in-out;
+z-index:0;
+
+}
+
+div.carona div::after{
+    content: "";
+    display: block;
+    width: 84%;
+    height: 84%;
+    border: 2px solid red;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(50deg);
+    border-radius: 40%;
+    box-shadow: 0px -40px 90px purple;
+    animation-name: carona;
+    animation-duration: 60s;
+    animation-iteration-count: infinite;
+    z-index:0;
+}
+
+@keyframes carona{
+    from{
+        transform: translate(-50%, -50%) rotate(-30deg);
+    }
+    to{
+        transform: translate(-50%, -50%) rotate(720deg);
+    }
+
+}

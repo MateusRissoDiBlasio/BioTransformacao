@@ -1,0 +1,485 @@
+@media (max-width: 320px){
+    body,
+    html{
+        width: 100vw;
+        height: 100vh;
+    }
+    
+    #app{
+        width: 100vw;
+        height: 100vh;
+    }
+    
+    .top{
+        display: flex;
+        width: 100vw;
+        height: 140px;
+        justify-content: center;
+    }
+    
+    .top img{
+        width: 140px;
+        height: 140px;
+    }
+    
+    .bio{
+        padding: 0;
+        width: 100vw;
+        height: 100vh;
+        justify-content: center;
+    }  
+    
+    h1{
+        font-size: 26px;
+        color:white;
+    }
+    
+    .btns{
+        display: flex;
+        width: 320px;
+        justify-content: center;
+    }
+    
+    .lines{
+        margin-top: 10px;
+    }
+
+    .whatsapp-logo{
+        width:25px
+    }
+    
+    .bubbly-button {
+        width:180px;
+        height:40px;
+        margin: 5px;
+        font-size: 12px;
+    }
+
+    .fa-map-marker-alt{
+        margin: 0;
+        font-size: 15px;
+    }
+
+    .bottom{
+        width: 320px;
+        
+    }
+    .shine-button{
+        width: 210px;
+        height: 50px;
+        font-size: 24px;
+    }
+    .shine-button::before, .shine-button::after {
+        width: calc(100% + 7px);
+        height: calc(100% + 7px);
+    }
+}
+
+@media (min-width: 321px) and (max-width: 338px){
+    body,
+    html{
+        width: 100vw;
+        height: 100vh;
+    }
+
+    #app{
+        width: 100vw;
+        height: 100vh;
+    }
+    
+    .top{
+        display: flex;
+        width: 100vw;
+        height: 180px;
+    }
+    
+    .top img{
+        width: 180px;
+        height: 180px;
+    }
+    
+    .bio{
+        padding: 0;
+        width: 100vw;
+        height: 100vh;
+        justify-content: center;
+    }
+    
+    h1{
+        justify-content: center;
+        font-size: 34px;
+        color:#FFFFFF;
+    }
+
+    .btns{
+        display: flex;
+        width: 100vw;
+    }
+
+    .lines{
+        margin-top: 10px;
+    }
+
+    .bubbly-button {
+        width: 250px;
+        height:50px;
+        margin: 5px;
+        font-size: 16px;
+    }
+
+    .bottom{
+        width: 100vw;
+    }
+
+    .shine-button{
+        width: 260px;
+        height: 60px;
+        font-size: 26px;
+    }  
+
+    .shine-button::before, .shine-button::after {
+        width: calc(100% + 8px);
+        height: calc(100% + 8px);
+    }
+    
+}
+
+@media (min-width: 339px) and (max-width: 357px){
+    html{
+        width: 100vw;
+        height: 100vh;
+    }
+
+    #app{
+        width: 100vw;
+        height: 100vh;
+    }
+    
+    .top{
+        display: flex;
+        width: 100vw;
+        height: 180px;
+    }
+    
+    .top img{
+        width: 180px;
+        height: 180px;
+    }
+    
+    .bio{
+        padding: 0;
+        width: 100vw;
+        height: 100vh;
+        justify-content: center;
+    }
+    
+    h1{
+        font-size: 34px;
+        color: #FFFFFF;
+    }
+
+    .btns{
+        display: flex;
+        width: 100vw;
+    }
+
+    .lines{
+        margin-top: 10px;
+    }
+
+    .bubbly-button {
+        width: 260px;
+        height:50px;
+        margin: 5px;
+        font-size: 16px;
+    }
+
+    .bottom{
+        width: 100vw;
+    }
+
+    .shine-button{
+        width: 260px;
+        height: 60px;
+        font-size: 26px;
+    }
+    
+    .shine-button::before, .shine-button::after {
+        width: calc(100% + 8px);
+        height: calc(100% + 8px);
+    }
+}
+
+@media (min-width: 358px) and (max-width: 375px){
+    html{
+        width: 100vw;
+        max-height: 100vh;
+    }
+
+    #app{
+        width: 100vw;
+        max-height: 100vh;
+    }
+    
+    .top{
+        display: flex;
+        width: 100vw;
+        height: 180px;
+        justify-content: center;
+    }
+    
+    .top img{
+        width: 180px;
+        height: 180px;
+    }
+    
+    .bio{
+        padding: 0;
+        width: 100vw;
+        max-height: 100vh;
+        justify-content: flex-start;
+        /* margin-top: 20px; */
+    }
+    
+    h1{
+        justify-content: center;
+        font-size: 30px;
+    }
+
+    .btns{
+        display: flex;
+        width: 100vw;
+    }
+
+    .lines{
+        margin-top: 10px;
+        justify-items: center;
+    }
+
+    .bubbly-button {
+        width: 280px;
+        height:50px;
+        margin: 5px;
+        font-size: 14px;
+        text-shadow: 1.5px 1.5px black;
+    }
+
+    .bottom{
+        display: flex;
+        width: 100vw;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .shine-button{
+        width: 280px;
+        height: 60px;
+        font-size: 28px;
+        margin-top: 20px;
+    }   
+    
+    .shine-button::before, .shine-button::after {
+        width: calc(100% + 8px);
+        height: calc(100% + 8px);
+    }
+}
+
+@media (min-width: 376px) and (max-width: 392px){
+    body
+    html{
+        width: 100vw;
+        max-height: 100vh;
+    }
+
+    #app{
+        width: 100vw;
+        max-height: 100vh;
+    }
+    
+    .top{
+        display: flex;
+        width: 100vw;
+        height: 200px;    
+    }
+    
+    .top img{
+        width: 200px;
+        height: 200px;
+    }
+
+    .bio{
+        padding: 0;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    h1{
+        font-size: 40px;
+        color: #FFFFFF;
+    }
+    
+    .btns{
+        display: flex;
+        width: 100vw;
+    }
+    
+    .lines{
+        margin-top: 10px;
+    }
+
+    .bubbly-button {
+        margin: 10px;
+        font-size: 18px;
+    }
+
+    .shine-button{
+    width: 300px;
+    height: 80px;
+    font-size: 36px;
+}
+.shine-button::before, .shine-button::after {
+    width: calc(100% + 8px);
+    height: calc(100% + 8px);
+}   
+
+    .bottom{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    }
+}
+
+@media (min-width: 393px) and (max-width: 410px){
+    body
+    html{
+        width: 100vw;
+        max-height: 100vh;
+    }
+
+    #app{
+        width: 100vw;
+        max-height: 100vh;
+    }
+    
+    .top{
+        width: 100vw;
+        height: 200px;
+        align-content: center;
+    }
+    
+    .top img{
+        width: 200px;
+        height: 200px;
+    }
+
+    .bio{
+        padding: 0;
+        width: 100vw;
+        height: 100vh;
+        justify-content: flex-start;
+    }
+
+    h1{
+        font-size: 40px;
+        color:#FFFFFF;
+    }
+    
+    .btns{
+        display: flex;
+        width: 100vw;
+    }
+    
+    .lines{
+        margin-top: 10px;
+    }
+
+    .bubbly-button{
+        margin: 10px;
+        font-size: 18px;
+    }
+
+    .shine-button{
+        width: 330px;
+        height: 90px;
+        font-size: 38px;
+    }   
+    .shine-button::before, .shine-button::after {
+        width: calc(100% + 10px);
+        height: calc(100% + 10px);
+    }
+
+    .bottom{
+        display: flex;
+        width: 100vw;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 411px) and (max-width: 425px){
+    body
+    html{
+        width: 100vw;
+        max-height: 100vh;
+    }
+
+    #app{
+        width: 100vw;
+        max-height: 100vh;
+    }
+    
+    .top{
+        display: flex;
+        width: 100vw;
+        height: 200px;   
+    }
+    
+    .top img{
+        width: 200px;
+        height: 200px;
+    }
+
+    .bio{
+        padding: 0;
+        width: 100vw;
+        max-height: 100vh;
+        justify-content: flex-start;
+    }
+
+    h1{
+        font-size: 40px;
+        color:#FFFFFF;
+    }
+    
+    .btns{
+        display: flex;
+        width: 100vw;
+    }
+    
+    .lines{
+        margin-top: 10px;
+    }
+
+    .bubbly-button {
+        margin: 10px;
+        font-size: 18px;
+    }
+
+    .shine-button{
+      width: 330px;
+      height: 90px;
+      font-size: 38px;
+    }
+    .shine-button::before, .shine-button::after {
+        width: calc(100% + 10px);
+        height: calc(100% + 10px);
+}
+
+    .bottom{
+        display: flex;
+        width: 100vw;
+        align-items: center;
+        justify-content: center; 
+    }
+}
