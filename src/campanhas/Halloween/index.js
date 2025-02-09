@@ -11,6 +11,6 @@ function ruaGalianoDasNeves(){
 }
 
 function PromosENovidades(){
-    setTimeout(function () { window.location.href="https://www.instagram.com/stories/perftransformacao/"; }, 1500);
+    setTimeout(function () { window.location.href="https://www.instagram.com/stories/perftransformacao/"; }, 1100);
 }
 
