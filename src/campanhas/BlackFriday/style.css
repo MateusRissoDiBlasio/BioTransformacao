@@ -1,0 +1,431 @@
+body{
+    width: 360px;
+    height: 700px;
+    overflow: hidden;
+}
+
+#svg1{
+    width: contain;
+    height: contain;
+    margin-left: -10px;
+    margin-top: -5px;
+    overflow: hidden;  
+}
+
+.screen{
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+}
+
+.footer{
+    
+    margin-top: -120px;
+
+}
+#tagverde{
+
+    #tagverdebase{
+        scale: 1;
+        animation: blink 5s ease infinite both;
+    }
+    #tagverdecima{
+        scale: 1;
+        }
+}
+
+#tagvermelho{
+
+    #tagvermelhobase{
+        scale: 1;
+        animation: blink 5s 2s ease infinite both;
+    }
+    #tagvermelhocima{
+        scale: 1;
+        }
+}
+
+#tagamarelo{
+
+    #tagamarelobase{
+        scale: 1;
+        animation: blink 5s 4s ease infinite both;
+    }
+    #tagamarelocima{
+        scale: 1;
+        }
+}
+
+#presente{
+    visibility: hidden;
+}
+
+/* #presente{
+    width: 100px;
+    animation: shake 2s ease-in-out infinite alternate-reverse;
+    #base{
+        animation: blink 5s ease infinite both;
+    }
+} */
+
+#div-presente1{
+    position: relative;
+    margin-top: -420px;
+    margin-left: 420px;
+    
+}
+
+#div-whatsapplogo{
+    margin-top: -380px;
+    margin-left: 115px;
+}
+
+
+
+#presente1{
+    position: relative;
+    width: 80px;
+    animation: shake 2s ease-in-out infinite alternate-reverse;
+    #base{
+        animation: blink 3s ease infinite both;
+    }
+}
+
+#carrinho{
+    animation: carrinho 2s ease-in-out forwards;
+
+    #carrinhobase{
+        animation: blink 1.5s ease infinite both;
+    }
+}
+
+
+
+@keyframes shake{
+
+    0%{
+        transform: translate(-370px, -180px) rotate(-20deg);
+    }
+        
+    100%{
+        transform: translate(-370px, -160px) rotate(20deg);
+    }
+}
+
+
+@keyframes carrinho{
+
+    0%{       
+        transform: translate(-35px, -45px) scale(1.2);
+    }
+        
+    100%{
+        /* transform: matrix(0.57071373,-0.18743065,0.18743065,0.57071373,59.703828,32.871473) scale(1); */
+        transform: matrix(0.57071373,-0.18743065,0.18743065,0.57071373,30.125359,32.328749) scale(1);
+    }
+
+}
+
+@keyframes blink{
+
+    0%{
+        opacity: 0;
+        
+    }
+        
+    50%{
+        opacity: 1;
+    
+    }
+    
+    100%{
+        opacity: 0;
+        
+    }
+}
+
+
+#Botao1{
+    
+    #Botao1fora{
+
+        #Botao1forabase{
+            visibility: hidden;
+        }
+        
+    }
+
+    #Botao1dentro{
+        
+        #Botao1dentrobase{
+            visibility: hidden;
+        }
+    }
+
+    #loja1base{
+        visibility: hidden;
+    }
+}
+
+#Botao1:hover{
+    cursor: pointer;
+    #Botao1fora{
+
+        #Botao1forabase{
+            visibility: visible;
+        }
+        
+    }
+
+    #Botao1dentro{
+        
+        #Botao1dentrobase{
+            visibility: visible;
+        }
+    }
+
+    #loja1base{
+        visibility: visible;
+    }
+}
+
+#Botao2{
+    /* visibility: hidden; */
+    #Botao2fora{
+
+        #Botao2forabase{
+            visibility: hidden;
+        }
+        
+    }
+
+    #Botao2dentro{
+        
+        #Botao2dentrobase{
+            visibility: hidden;
+        }
+    }
+    
+    #loja2base{
+        visibility: hidden;
+    }
+}
+
+#Botao2:hover{
+    cursor: pointer;
+    #Botao2fora{
+
+        #Botao2forabase{
+            visibility: visible;
+        }
+        
+    }
+
+    #Botao2dentro{
+        
+        #Botao2dentrobase{
+            visibility: visible;
+        }
+    }
+
+    #loja2base{
+        visibility: visible;
+    }
+}
+
+#Botao3{
+    /* visibility: hidden; */
+    #Botao3fora{
+
+        #Botao3forabase{
+            visibility: hidden;
+        }
+        
+    }
+
+    #Botao3dentro{
+        
+        #Botao3dentrobase{
+            visibility: hidden;
+        }
+    }
+
+    #Loja3{
+
+        #parte1base{
+            visibility: hidden;
+        }
+        #parte2base{
+            visibility: hidden;
+        }
+}
+}
+
+#Botao3:hover{
+    cursor: pointer;
+    #Botao3fora{
+
+        #Botao3forabase{
+            visibility: visible;
+        }
+        
+    }
+
+    #Botao3dentro{
+        
+        #Botao3dentrobase{
+            visibility: visible;
+        }
+    }
+
+    #Loja3{
+
+        #parte1base{
+            visibility: visible;
+        }
+        #parte2base{
+            visibility: visible;
+        }
+    }
+}
+
+#whatsapp-logo-1, #whatsapp-logo-2, #whatsapp-logo-3{
+    width: 40px;   
+}
+
+#whatsapp-logo-1{
+    #fone1-base{
+        display: none;
+    }
+    #round1-base{
+        display: none;
+    }
+
+}
+
+#whatsapp-logo-2{
+    margin-top: -5px;
+    #fone2-base{
+        display: none;
+    }
+    #round2-base{
+        display: none;
+    }
+}
+
+#whatsapp-logo-3{
+    margin-top: -5px;
+    #fone3-base{
+        display: none;
+    }
+    #round3-base{
+        display: none;
+    }
+    
+}
+
+.active-1{
+    #whatsapp-logo-1{
+        #fone1-base{
+            display: initial;
+            transform-origin: center;
+            animation: cellshake 0.5s ease-in-out infinite alternate-reverse;
+        }
+        #fone1-meio{
+            display: initial;
+            transform-origin: center;
+            animation: cellshake 0.5s ease-in-out infinite alternate-reverse;
+        }
+        #fone1-cima{
+            display: initial;
+            transform-origin: center;
+            animation: cellshake 0.5s ease-in-out infinite alternate-reverse;
+        }
+        #round1-base{
+            display: initial;
+        }    
+    }
+}
+
+.active-2{
+
+    #whatsapp-logo-2{
+
+        #fone2-base{
+            display: initial;
+            transform-origin: center;
+            animation: cellshake 0.5s ease-in-out infinite alternate-reverse;
+        }
+        #fone2-meio{
+            display: initial;
+            transform-origin: center;
+            animation: cellshake 0.5s ease-in-out infinite alternate-reverse;
+        }
+        #fone2-cima{
+            display: initial;
+            transform-origin: center;
+            animation: cellshake 0.5s ease-in-out infinite alternate-reverse;
+        }
+
+        #round2-base{
+            display: initial;
+        }
+    }
+
+
+}
+
+.active-3{
+
+    #whatsapp-logo-3{
+
+        #fone3-base{
+            display: initial;
+            transform-origin: center;
+            animation: cellshake 0.5s ease-in-out infinite alternate-reverse;
+        }
+
+        #fone3-meio{
+            display: initial;
+            transform-origin: center;
+            animation: cellshake 0.5s ease-in-out infinite alternate-reverse;
+        }
+        #fone3-cima{
+            display: initial;
+            transform-origin: center;
+            animation: cellshake 0.5s ease-in-out infinite alternate-reverse;
+        }
+        #round3-base{
+            display: initial;
+        }
+    }
+
+
+}
+
+
+
+@keyframes cellshake{
+
+    0%{
+        transform: rotate(-10deg);
+        scale: 0.8;
+    }
+        
+    100%{
+        scale: 1.1;
+        transform: rotate(10deg);
+    }
+
+}
+
+
+/* @keyframes dash{
+    from{
+        stroke-dashoffset: 2000;
+    }
+    to{
+        stroke-dashoffset: 0;
+    }
+} */
+    
